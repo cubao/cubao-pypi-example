@@ -31,6 +31,10 @@ upload:
 	python3 -m twine upload --repository $(pypi_remote) dist/*
 .PHONY: install package build upload
 
+ci:
+	python -m tox -e py
+.PHONY: ci
+
 test: data_pull pytest clitest
 pytest:
 	python3 -m pip install pytest
