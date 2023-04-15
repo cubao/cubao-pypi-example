@@ -10,6 +10,10 @@ To upgrade `cubao-pypi-example` to the latest version, use pip:
 pip install -U cubao-pypi-example
 ```
 
+## Version 0.0.3 (2023-04-15)
+
+*   Use flat-layout
+
 ## Version 0.0.2 (2023-04-15)
 
 *   Initial release
