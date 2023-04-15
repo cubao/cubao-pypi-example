@@ -20,6 +20,11 @@ data_pull:
 data_clean:
 	make clean -C data
 
+docs_build:
+	mkdocs build
+docs_serve:
+	mkdocs serve -a 0.0.0.0:8088
+
 install:
 	python3 -m pip install . --force --user
 package:

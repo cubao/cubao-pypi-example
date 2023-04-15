@@ -2,6 +2,8 @@
 
 ![Python Logo](https://www.python.org/static/community_logos/python-logo.png "Sample inline image")
 
+<!--intro-start-->
+
 A sample project that exists as an aid to the [Python Packaging User
 Guide][packaging guide]'s [Tutorial on Packaging and Distributing
 Projects][distribution tutorial].
@@ -37,3 +39,5 @@ may be appropriate.
 [rst]: http://docutils.sourceforge.net/rst.html
 [md]: https://tools.ietf.org/html/rfc7764#section-3.5 "CommonMark variant"
 [md use]: https://packaging.python.org/specifications/core-metadata/#description-content-type-optional
+
+<!--intro-end-->
