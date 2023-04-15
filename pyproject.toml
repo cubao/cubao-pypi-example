@@ -3,21 +3,21 @@
 # package, this name will be registered for you. It will determine how
 # users can install this project, e.g.:
 #
-# $ pip install sampleproject
+# $ pip install cubao-pypi-example
 #
 # And where it will live on PyPI: https://pypi.org/project/sampleproject/
 #
 # There are some restrictions on what makes a valid project name
 # specification here:
 # https://packaging.python.org/specifications/core-metadata/#name
-name = "sampleproject"  # Required
+name = "cubao-pypi-example"  # Required
 
 # Versions should comply with PEP 440:
 # https://www.python.org/dev/peps/pep-0440/
 #
 # For a discussion on single-sourcing the version, see
 # https://packaging.python.org/guides/single-sourcing-package-version/
-version = "3.0.0"  # Required
+version = "0.0.2"  # Required
 
 # This is a one-line description or tagline of what your project does. This
 # corresponds to the "Summary" metadata field:
@@ -130,11 +130,9 @@ test = ["coverage"]
 # maintainers, and where to support the project financially. The key is
 # what's used to render the link text on PyPI.
 [project.urls]  # Optional
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Reports" = "https://github.com/pypa/sampleproject/issues"
-"Funding" = "https://donate.pypi.org"
-"Say Thanks!" = "http://saythanks.io/to/example"
-"Source" = "https://github.com/pypa/sampleproject/"
+"Homepage" = "https://github.com/cubao/cubao-pypi-example"
+"Bug Reports" = "https://github.com/cubao/cubao-pypi-example/issues"
+"Source" = "https://github.com/cubao/cubao-pypi-example/"
 
 # The following would provide a command line executable called `sample`
 # which executes the function `main` from this package when invoked.

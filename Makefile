@@ -15,10 +15,18 @@ force_clean:
 	docker run --rm -v `pwd`:`pwd` -w `pwd` -it alpine/make make clean
 .PHONY: clean force_clean
 
+tox_check:
+	python -m tox -e py
+
 data_pull:
 	make pull -C data
 data_clean:
 	make clean -C data
+
+docs_build:
+	mkdocs build
+docs_serve:
+	mkdocs serve -a 0.0.0.0:8088
 
 install:
 	python3 -m pip install . --force --user
